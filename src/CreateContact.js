@@ -10,8 +10,8 @@ class CreateContact extends Component {
         const values = serializeForm(e.target, {hash: true})
         console.log('values', values)
 
-        if (this.props.onCreatecontact) {
-            this.props.onCreatecontact(values)
+        if (this.props.onCreateContact) {
+            this.props.onCreateContact(values)
         }
     }
 
